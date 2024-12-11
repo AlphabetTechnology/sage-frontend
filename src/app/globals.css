@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  @apply font-description; /* Default font for body text */
+}
+
+h1 {
+  @apply font-heading text-h1 lg:text-h1-lg;
+}
+
+h2 {
+  @apply font-heading text-h2 lg:text-h2-lg;
+}
+
+h3 {
+  @apply font-heading text-h3 lg:text-h3-lg;
+}
+
+h4 {
+  @apply font-heading text-h4 lg:text-h4-lg;
+}
+
+h5 {
+  @apply font-heading text-h5 lg:text-h5-lg;
+}
+
+h6 {
+  @apply font-heading text-h6 lg:text-h6-lg;
+}
+
+p {
+  @apply text-p lg:text-p-lg;
+}
+
