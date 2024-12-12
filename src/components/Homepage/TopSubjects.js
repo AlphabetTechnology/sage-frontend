@@ -210,9 +210,8 @@ const TopSubjects = () => {
                   {course.description}
                 </Typography>
                 <Button
-                  variant="outlined"
-                  color="primary"
                   className="capitalize"
+                  sx={{ border: "2px solid #f0bd6c", color: "#000", backgroundColor:"#f0bd6c" }}
                 >
                   {course.type}
                 </Button>

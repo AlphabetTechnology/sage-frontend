@@ -26,10 +26,10 @@ const page = () => {
       </section>
       <Certificates />
       <section className="flex w-full justify-center py-20">
-        <HowItWorks />
+        <VideoSection />
       </section>
       <section className="flex w-full justify-center py-20">
-        <VideoSection />
+        <HowItWorks />
       </section>
       <section className="h-[100vh]"></section>
     </>
